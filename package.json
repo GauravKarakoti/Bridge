@@ -1,0 +1,26 @@
+{
+  "name": "bridge",
+  "version": "1.0.0",
+  "description": "**Template repository for getting started quickly with Foundry projects**",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "deploy:eth": "forge script script/DeployETH.s.sol:DeployETH --rpc-url eth --broadcast -vvvv",
+    "deploy:base": "forge script script/DeployBase.s.sol:DeployBase --rpc-url base --broadcast -vvvv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GauravKarakoti/Bridge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GauravKarakoti/Bridge/issues"
+  },
+  "homepage": "https://github.com/GauravKarakoti/Bridge#readme"
+}
