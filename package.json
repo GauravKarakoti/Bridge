@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "deploy:eth": "forge script script/DeployETH.s.sol:DeployETH --rpc-url eth --broadcast -vvvv",
+    "deploy:eth": "forge script script/DeployETH.s.sol:DeployETH --rpc-url eth --broadcast --resume -vvvv",
     "deploy:base": "forge script script/DeployBase.s.sol:DeployBase --rpc-url base --broadcast -vvvv"
   },
   "repository": {
